@@ -382,3 +382,5 @@ bot.onText(/\/admin reset/, async (msg) => {
     bot.sendMessage(msg.chat.id, `❌ You are not authorized.`);
   }
 });
+const botToken = process.env.BOT_TOKEN;
+const port = process.env.PORT;
